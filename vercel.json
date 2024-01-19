@@ -10,23 +10,23 @@
         {
             "src": "/(.*)",
             "dest": "/"
-        },
-        {
-            "src": "/feature-requests/(.*)",
-            "dest": "backend/routes/featureRequest.js"
-        },
-        {
-            "src": "/votes/(.*)",
-            "dest": "backend/routes/vote.js"
-        },
-        {
-            "src": "/comments/(.*)",
-            "dest": "backend/routes/comment.js"
-        },
-        {
-            "src": "/auth/(.*)",
-            "dest": "backend/routes/auth.js"
         }
+        // {
+        //     "src": "/feature-requests/(.*)",
+        //     "dest": "backend/routes/featureRequest.js"
+        // },
+        // {
+        //     "src": "/votes/(.*)",
+        //     "dest": "backend/routes/vote.js"
+        // },
+        // {
+        //     "src": "/comments/(.*)",
+        //     "dest": "backend/routes/comment.js"
+        // },
+        // {
+        //     "src": "/auth/(.*)",
+        //     "dest": "backend/routes/auth.js"
+        // }
     ]
     // "builds":[
     //     { "src": "*.js", "use":"@vercel/node"}
